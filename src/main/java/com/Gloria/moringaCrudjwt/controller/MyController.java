@@ -3,7 +3,7 @@ package com.Gloria.moringaCrudjwt.controller;
 import com.Gloria.moringaCrudjwt.datalayer.Entity.Department;
 import com.Gloria.moringaCrudjwt.datalayer.model.AuthenticationRequest;
 import com.Gloria.moringaCrudjwt.datalayer.model.AuthenticationResponse;
-import com.Gloria.moringaCrudjwt.service.ServiceImp;
+import com.Gloria.moringaCrudjwt.service.ServiceInterfaceImp;
 import com.Gloria.moringaCrudjwt.utils.JwtUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -20,7 +20,7 @@ public class MyController {
     @Autowired
     private AuthenticationManager authenticationManager;
     @Autowired
-    private ServiceImp serviceImp;
+    private ServiceInterfaceImp serviceImp;
     @Autowired
     private JwtUtil jwtUtil;
 

@@ -1,6 +1,6 @@
 package com.Gloria.moringaCrudjwt.security;
 
-import com.Gloria.moringaCrudjwt.service.ServiceImp;
+import com.Gloria.moringaCrudjwt.service.ServiceInterfaceImp;
 import com.Gloria.moringaCrudjwt.utils.JwtUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
@@ -20,7 +20,7 @@ import java.io.IOException;
 public class JwtRequestFilter extends OncePerRequestFilter {
 
     @Autowired
-    private ServiceImp userDetailsService;
+    private ServiceInterfaceImp userDetailsService;
 
     @Autowired
     private JwtUtil jwtUtil;

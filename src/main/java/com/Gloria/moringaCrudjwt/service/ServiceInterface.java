@@ -4,7 +4,7 @@ import com.Gloria.moringaCrudjwt.datalayer.Entity.Department;
 
 import java.util.List;
 
-public interface Service {
+public interface ServiceInterface {
 
     Department saveDepartment(Department department);
 

@@ -1,7 +1,7 @@
 package com.Gloria.moringaCrudjwt.security;
 
 
-import com.Gloria.moringaCrudjwt.service.ServiceImp;
+import com.Gloria.moringaCrudjwt.service.ServiceInterfaceImp;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.security.authentication.AuthenticationManager;
@@ -18,7 +18,7 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 @EnableWebSecurity
 public class SecurityConfiguration  extends WebSecurityConfigurerAdapter {
     @Autowired
-    private ServiceImp serviceImp;
+    private ServiceInterfaceImp serviceImp;
     @Autowired
     JwtRequestFilter jwtRequestFilter;
     //used to set values to the authenticationManagerBuilder
