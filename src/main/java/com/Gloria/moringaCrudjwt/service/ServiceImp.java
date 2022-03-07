@@ -15,6 +15,7 @@ import java.util.Objects;
 
 @org.springframework.stereotype.Service
 public class ServiceImp implements Service,UserDetailsService{
+
     @Autowired
     private DepartmentRepository departmentRepository;
 
@@ -77,7 +78,3 @@ public class ServiceImp implements Service,UserDetailsService{
         departmentRepository.deleteById(departmentId);
     }
 }
-
-
-
-

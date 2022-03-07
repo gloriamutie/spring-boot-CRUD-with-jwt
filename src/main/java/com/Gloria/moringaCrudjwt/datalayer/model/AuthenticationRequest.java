@@ -1,3 +1,4 @@
+
 package com.Gloria.moringaCrudjwt.datalayer.model;
 
 import java.io.Serializable;

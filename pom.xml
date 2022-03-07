@@ -56,6 +56,7 @@
             <version>2.3.0</version>
         </dependency>
         <dependency>
+<<<<<<< HEAD
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <optional>true</optional>
@@ -68,6 +69,8 @@
         </dependency>
 
         <dependency>
+=======
+>>>>>>> a3a526e3815f58dcd06aa7c5544ec24ea13bfd06
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
         </dependency>
@@ -78,7 +81,11 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+<<<<<<< HEAD
                 <version>${project.parent.version}</version>
+=======
+                <version>${parent.version}</version>
+>>>>>>> a3a526e3815f58dcd06aa7c5544ec24ea13bfd06
             </plugin>
         </plugins>
     </build>
