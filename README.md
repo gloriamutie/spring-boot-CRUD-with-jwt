@@ -49,6 +49,7 @@ Content-Type:application/json
 
 N/B (No headers for the token genertaor endpoint)
 ## Screenshots
+# JWT
 <img width="642" alt="jwt" src="https://user-images.githubusercontent.com/44633727/157164517-72b99f1e-c89e-4602-809e-028f5c361587.PNG">
 
 
