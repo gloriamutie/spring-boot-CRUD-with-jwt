@@ -59,6 +59,9 @@ N/B (No headers for the token genertaor endpoint)
 
 ![Delete record by id](.idea/iimages/Update.PNG)
 
+<img width="636" alt="savetodb" src="https://user-images.githubusercontent.com/44633727/157164367-78aeff9c-2dc9-4d2d-9411-cf112179359b.PNG">
+
+
 
 
 
