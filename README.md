@@ -49,16 +49,20 @@ Content-Type:application/json
 
 N/B (No headers for the token genertaor endpoint)
 ## Screenshots
-![JWT Token generation](.idea/iimages/jwt.PNG)
+# JWT
+<img width="642" alt="jwt" src="https://user-images.githubusercontent.com/44633727/157164517-72b99f1e-c89e-4602-809e-028f5c361587.PNG">
 
-![Create Record](.idea/iimages/savetodb.PNG)
+# Save/Create data 
+<img width="636" alt="savetodb" src="https://user-images.githubusercontent.com/44633727/157164577-1c8ca77c-2241-43d4-a420-ac116fa80c56.PNG">
 
-![Get all records](.idea/iimages/GetsavedData.PNG)
+# Read saved data from db
+<img width="642" alt="GetsavedData" src="https://user-images.githubusercontent.com/44633727/157164604-a622b69b-c22e-43e3-a3e8-ddcde3c25f6a.PNG">
 
-![Update record by id](.idea/iimages/Update.PNG)
+# Update by id
+<img width="646" alt="Update" src="https://user-images.githubusercontent.com/44633727/157164643-d516d27b-6d2f-4a5a-8dec-840e7df51d05.PNG">
 
-![Delete record by id](.idea/iimages/Update.PNG)
-
+# Delete by id
+<img width="667" alt="Delete" src="https://user-images.githubusercontent.com/44633727/157164672-ba468dda-e718-4aba-b111-3821c60f6793.PNG">
 
 
 
